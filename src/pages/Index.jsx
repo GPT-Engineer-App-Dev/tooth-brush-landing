@@ -70,6 +70,18 @@ function Index() {
         </div>
       </section>
 
+      {/* Customer Shoutout Section */}
+      <section className="text-center space-y-8 bg-gray-100 py-8">
+        <h2 className="text-3xl font-bold">Customer Shoutout</h2>
+        <Card className="mx-auto w-1/2">
+          <CardHeader>
+            <Avatar src="/images/customer4.jpg" alt="Customer 4" className="mx-auto" />
+            <CardTitle>Michael Brown</CardTitle>
+          </CardHeader>
+          <CardContent>"I can't believe how much of a difference this toothbrush has made. My dentist even noticed the improvement!"</CardContent>
+        </Card>
+      </section>
+
       {/* Product Showcase */}
       <section className="text-center space-y-8">
         <h2 className="text-3xl font-bold">Our Products</h2>
